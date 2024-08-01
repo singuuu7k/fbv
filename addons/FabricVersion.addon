@@ -1,0 +1,12 @@
+:main
+a_name Fabric Version Changer
+a_version 1.0
+a_author singxlarity
+
+:button Mapas Oneblock 
+text Mapas oneblock
+nsay [1] Instalar OneBlock (1.21 / Vanilla)
+nsay [2] Instalar Oneblock (1.20.4 / Vanilla)
+input cond Cual version de deseas instalar > 
+if "%cond%" == "1"  1 none
+if "%cond%" == "2"  2 none
